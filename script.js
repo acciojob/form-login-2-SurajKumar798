@@ -11,7 +11,7 @@ phone.value = "1234567890";
 email.value = "john.doe@example.com"
 
 
-function submit(){
+function handleSubmit(){
 	const message = `First Name: ${fname.value} Last Name: ${lname.value} Phone Number: ${phone.value} Email ID: ${email.value}`
 	alert(message);
 }
