@@ -5,6 +5,10 @@ const lname =  document.getElementById('lname');
 const phone =  document.getElementById('phone');
 const email =  document.getElementById('email');
 
+fname.value = 'John';
+lname.value = "Doe";
+phone.value = "1234567890";
+email.value = "john.doe@example.com"
 
 
 function submit(){
